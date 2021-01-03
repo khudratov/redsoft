@@ -1,0 +1,12 @@
+.menu {
+  &__link {
+    text-decoration: none;
+    color: #343030;
+    margin-right: 48px;
+    font-size: 14px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

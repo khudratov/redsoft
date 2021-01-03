@@ -1,0 +1,35 @@
+.button {
+  height: 48px;
+  width: 118px;
+  background: #403432;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-family: Merriweather, serif;
+  cursor: pointer;
+  transition: 0.5s background ease;
+
+  &:hover {
+    color: #f4f6f9;
+    background: #776763;
+    transition: 0.2s background ease;
+  }
+
+  &_basket {
+    color: #f4f6f9;
+    background-color: #5b3a32;
+    transition: 0.2s background ease;
+  }
+
+  &_disabled {
+    color: #f4f6f9;
+    background: #c1b4b1;
+
+    &:hover {
+      color: #f4f6f9;
+      background: #c1b4b1;
+      transition: none;
+      cursor: not-allowed;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.search {
+  display: flex;
+  &__input {
+    box-sizing: border-box;
+    height: 48px;
+    width: 294px;
+    border: 1px #e1e1e1 solid;
+    border-right: none;
+    padding-left: 16px;
+    font-size: 14px;
+    font-family: "Merriweather", serif;
+    color: #343030;
+
+    &:focus {
+      border: 1px #b5b5b5 solid;
+      border-right: none;
+    }
+
+    &::placeholder {
+      color: #9f9f9f;
+      opacity: 1;
+    }
+  }
+
+  &__button {
+    height: 48px;
+    width: 122px;
+    background: #403432;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: Merriweather, serif;
+    cursor: pointer;
+    transition: 0.5s background ease;
+  }
+}

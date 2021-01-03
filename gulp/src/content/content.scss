@@ -1,0 +1,10 @@
+.carts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  flex-grow: 1;
+}

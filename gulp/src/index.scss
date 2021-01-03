@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  background: #f6f3f3;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #343030;
+  font-family: "Merriweather", serif;
+  margin-bottom: 45px;
+}
